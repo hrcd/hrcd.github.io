@@ -1,24 +1,24 @@
 ---
 layout: page
-title: About HRCD Community Network
-permalink: /about
+title: HRCD resources
+permalink: /resources
 comments: false
 ---
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Describe HRCD here. There will be a great image or paragraph here! More paragraph like! Filler text.</p>
+<p>resources list!</p>
 
-<h4>Get Involved</h4>
+<h4>Topic Area</h4>
 
-<p>Subscribe to the <a href="https://lists.riseup.net/www/info/hrcd-discuss">mailing list</a> hosted on Riseup.</p>
+<p>LINKS</p>
 
-<p><a href="https://simsec.cc/joinslack">Join the slack channel</a>in the <a href="https://simplysecure.org">Simply Secure</a> slack!</p>
+<p>LINKS</p>
 
-<h4>Supporting Organizations</h4>
+<h4>Topic Area</h4>
 
-<p>LOGOS</p>
+<p>LINKS!</p>
 
 </div>
 
