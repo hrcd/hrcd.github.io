@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "The Human Rights UX event at RightsCon Tunis"
+title:  "The Human Rights Centered Design event at RightsCon Tunis"
 author: org-team
 categories: [ RightsCon, convening, resources ]
 tags: [red, yellow]
-image: assets/images/11.jpg
-description: "Hear about RightsCon!"
+image: assets/images/2020-03-08-HRCD-RightsCon-Tunis.jpg
+description: "Hear about the first HRCD event "
 featured: true
 hidden: true
 ---
@@ -24,6 +24,7 @@ Our discussion covered a wide spectrum of topics including **funding and resourc
   + Abruptly pausing the maintenance of a tool—that is critical to the protection of privacy and security of a certain community—can be detrimental. However, it costs a tool team a lot to continue and expand their developments as funders are less likely to fund the maintenance. 
   + It is important to brew ideas and encourage the funding and supporting community. This would be to shift the current focus from funding shiny features and creation of new tools to regular maintenance, UX/UI improvements, or the prototyping and testing process.
 
+
 * **Participatory inclusion**
   + The easiest way for diverse communities to impact the design and development of critical tools is to involve them in every phase of the process. 
   + This impact through participation can be achieved by embedding local expertise within tool teams. From designers to developers, talent should be sourced globally. 
@@ -33,14 +34,17 @@ Our discussion covered a wide spectrum of topics including **funding and resourc
   + Utilize existing networks and events to connect with diverse users and source new talent for tool teams. 
   + Personas can be used to capture user needs and build empathy among communities that may not otherwise be connected to at-risk users (funders, developers, designers, etc.). 
 
+
 * **High risk environment, stress, and mitigation**
   + Our general political and social environment is deteriorating with the shrinking space for civil society, growing threats targeting activists, lawyers, and journalists, sweeping disinformation and hate speech, gaps in communications, and the lack of transparency. 
   + Creating tools for the most at risk communities requires a carefully and thoughtfully designed process that takes into consideration of communications, security, accessibility, fairness and equity, cultural and behavioral nuances, and so forth. Features, interface design, choose of iconography, interactivity, and dissemination of the tools are ought to depend on and meet user needs. This can be achieved through creating avenues for users to speak up, guiding them to articulate, learning from them to shape the criteria, and maintaining a channel for long term dialogues between users and tool developers.   
   + There are some successful projects shared as examples for others who don’t have enough resources and support to run the whole process. 
   
+  
 * **Metrics and measuring success**
   + There is a clear need for stronger universal metrics that allow trainers, designers and tool teams to better measure their own successes. 
   + Tools should use privacy-respecting analytics to capture where users drop off and identify pain points within their tools. Guardian Project’s Clean Insights initiative is one example of how this can be done in open source tools. 
+
 
 * **Feedback loop between users and tool teams**
   + There are many complicated channels that tool teams use to collect feedback, but this requires additional work for end users and/or trainers. For instance, they may need to learn about GitHub in order to submit a bug or feature request as an issue. 
@@ -77,20 +81,3 @@ People fighting for human rights need trustworthy tools and platforms that suppo
 The **Human Rights Centered Design Community** is an emergent group of practitioners from the Internet Freedom, Digital Rights, Media Justice, Translation, Training, Design and Development communities. Our mission is to expand and support this community by creating a more inclusive space, helping broaden perspectives around needs, creating opportunities for co-designing such that we build with, not for, foster connections and collaborations, and facilitating proactive conversations in the community — whether using, designing, or developing tools and platforms. We believe that by centering human rights and deliberately co-designing with diverse voices, these technologies can be improved and be more reflective of community needs.
 
 The **Human Rights Centered Design Community Initiative** is a group effort by Georgia Bullen (Simply Secure), Sage Cheng (Access Now), Ashley Fowler (Internews), and Soraya Okuda (EFF) with a lot of friends who offered generous contributions. If you have any questions,  or want to take part / contribute / support, please reach out at **hrcd@simplysecure.org**.
-
-
-
-It's actually really simple! Add the rating in your YAML front matter. It also supports halfs:
-
-```html
----
-layout: post
-title:  "Inception Movie"
-author: john
-categories: [ Jekyll, tutorial ]
-tags: [red, yellow]
-image: assets/images/11.jpg
-description: "My review of Inception movie. Actors, directing and more."
-rating: 4.5
----
-```
