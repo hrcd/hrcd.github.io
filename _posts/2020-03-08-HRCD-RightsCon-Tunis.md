@@ -23,7 +23,7 @@ Our discussion covered a wide spectrum of topics including **funding and resourc
   + Compensation is not adequate or proportionate for everyone involved in the design process.
   + Abruptly pausing the maintenance of a tool—that is critical to the protection of privacy and security of a certain community—can be detrimental. However, it costs a tool team a lot to continue and expand their developments as funders are less likely to fund the maintenance. 
   + It is important to brew ideas and encourage the funding and supporting community. This would be to shift the current focus from funding shiny features and creation of new tools to regular maintenance, UX/UI improvements, or the prototyping and testing process.
-
+#
 
 * **Participatory inclusion**
   + The easiest way for diverse communities to impact the design and development of critical tools is to involve them in every phase of the process. 
