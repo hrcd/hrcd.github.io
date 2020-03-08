@@ -23,7 +23,7 @@ Our discussion covered a wide spectrum of topics including **funding and resourc
   + Compensation is not adequate or proportionate for everyone involved in the design process.
   + Abruptly pausing the maintenance of a tool—that is critical to the protection of privacy and security of a certain community—can be detrimental. However, it costs a tool team a lot to continue and expand their developments as funders are less likely to fund the maintenance. 
   + It is important to brew ideas and encourage the funding and supporting community. This would be to shift the current focus from funding shiny features and creation of new tools to regular maintenance, UX/UI improvements, or the prototyping and testing process.
-#
+<br/><br/>
 
 * **Participatory inclusion**
   + The easiest way for diverse communities to impact the design and development of critical tools is to involve them in every phase of the process. 
@@ -33,18 +33,18 @@ Our discussion covered a wide spectrum of topics including **funding and resourc
   + Designing for extremes of risk can ultimately be beneficial for all end users. When designing, it is always important to think about how design decisions for one community may be applied more widely to larger audiences. 
   + Utilize existing networks and events to connect with diverse users and source new talent for tool teams. 
   + Personas can be used to capture user needs and build empathy among communities that may not otherwise be connected to at-risk users (funders, developers, designers, etc.). 
-
+<br/><br/
 
 * **High risk environment, stress, and mitigation**
   + Our general political and social environment is deteriorating with the shrinking space for civil society, growing threats targeting activists, lawyers, and journalists, sweeping disinformation and hate speech, gaps in communications, and the lack of transparency. 
   + Creating tools for the most at risk communities requires a carefully and thoughtfully designed process that takes into consideration of communications, security, accessibility, fairness and equity, cultural and behavioral nuances, and so forth. Features, interface design, choose of iconography, interactivity, and dissemination of the tools are ought to depend on and meet user needs. This can be achieved through creating avenues for users to speak up, guiding them to articulate, learning from them to shape the criteria, and maintaining a channel for long term dialogues between users and tool developers.   
   + There are some successful projects shared as examples for others who don’t have enough resources and support to run the whole process. 
-  
+<br/><br/  
   
 * **Metrics and measuring success**
   + There is a clear need for stronger universal metrics that allow trainers, designers and tool teams to better measure their own successes. 
   + Tools should use privacy-respecting analytics to capture where users drop off and identify pain points within their tools. Guardian Project’s Clean Insights initiative is one example of how this can be done in open source tools. 
-
+<br/><br/
 
 * **Feedback loop between users and tool teams**
   + There are many complicated channels that tool teams use to collect feedback, but this requires additional work for end users and/or trainers. For instance, they may need to learn about GitHub in order to submit a bug or feature request as an issue. 
