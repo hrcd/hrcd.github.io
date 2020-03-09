@@ -7,6 +7,7 @@ tags: [red, yellow]
 image: assets/images/2020-03-08-HRCD-RightsCon-Tunis.jpg
 description: "Hear about the first HRCD event "
 featured: true
+draft: false
 hidden: true
 ---
 
