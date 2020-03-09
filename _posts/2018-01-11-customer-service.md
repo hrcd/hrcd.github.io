@@ -6,7 +6,7 @@ categories: [ RightsCon, convening, resources ]
 tags: [red, yellow]
 image: assets/images/11.jpg
 description: "Hear about RightsCon!"
-featured: true
+featured: false
 hidden: true
 ---
 
