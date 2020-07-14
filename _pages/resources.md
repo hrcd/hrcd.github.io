@@ -8,11 +8,11 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>resources list!</p>
-
-<h4>Topic Area</h4>
-
-<p>LINKS</p>
+#### Trauma and design
+- [key terms](trauma-design.md)
+- learn more
+- related projects
+- design for trauma healing initiatives
 
 <p>LINKS</p>
 

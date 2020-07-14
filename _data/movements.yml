@@ -1,0 +1,99 @@
+- name: Data for Black Lives
+  short-name: dbl
+  type: collective
+  link: http://d4bl.org/
+  participate: http://d4bl.org/action.html
+  categories: trauma
+
+- name: Ni Una Menos
+  short-name: num
+  type: collective
+  link: https://niunamenos.org.ar/
+  categories: trauma
+
+- name: Community Data Clinic
+  short-name: cdc
+  type: teaching
+  organization:
+    ref: illinois
+  link: https://publish.illinois.edu/communitydata/
+  categories: trauma
+
+- name: Collaborative Design Studio
+  short-name: coll
+  type: teaching
+  organization: MIT
+  link: https://codesign.mit.edu/
+  categories: trauma
+
+- name: AI.Assembly
+  short-name: aia
+  type: repository
+  link: https://aiassembly.io/
+  categories: trauma
+
+- name: Calm Technology
+  short-name: calm
+  type: concept, book
+  link: https://calmtech.com/
+  categories: trauma
+
+- name: Center for Humane Technology
+  short-name: humane
+  type: foundation
+  link: https://humanetech.com/
+  categories: trauma
+
+- name: Reset.tech
+  short-name: reset
+  type: foundation
+  link: https://www.reset.tech/
+  categories: trauma, funding
+
+- name: De-escalating Social Media
+  short-name: desc
+  type: concept
+  link: https://onezero.medium.com/de-escalating-social-media-e8deecda5e78
+  categories: trauma
+
+- name: Remake Data-Driven World
+  short-name: remake
+  type: chat
+  link: http://remakedatadrivenworld.slack.com/
+  categories: trauma
+
+- name: Data feminism
+  short-name: fem
+  type: concept, book
+  link: https://data-feminism.mitpress.mit.edu/dash/collection/adaglgld/overview
+  categories: trauma
+
+- name: Data Feminism Reading Group
+  short-name: femread
+  type: documentation
+  link: http://datafeminism.io/blog/book/data-feminism-reading-group/
+  categories: trauma
+
+- name: Society Centered Design
+  short-name: scd
+  type: manifesto
+  link: https://societycentered.design/
+  categories: trauma
+
+- name: First Things First 2014
+  short-name: ftf
+  type: manifesto
+  link: https://firstthingsfirst2014.net/
+  categories: trauma
+
+- name: Ethical visualization
+  short-name: eth
+  type: concept
+  link: https://kathep.github.io/ethics/
+  categories: trauma
+
+- name: Data & Society
+  short-name: das
+  type: research
+  link: https://datasociety.net/
+  categories: trauma

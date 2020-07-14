@@ -1,0 +1,30 @@
+- name: University of Nevada, Reno
+  short-name: unr
+  link: https//www.unr.edu
+  relationship: employer, funder
+  location:
+    city: Reno
+    country: United States
+
+- name: Electronic Frontier Foundation
+  short-name: eff
+  link: https://www.eff.org/about/staff/dave-maass
+  location:
+    city: San Francisco
+    country: United States
+
+- name: SimplySecure
+  short-name: simply
+  link: https://simplysecure.org/
+  type: ngo
+  location:
+    city: Berlin
+    country: Germany
+
+- name: AccessNow
+  short-name: access
+  link: https://www.accessnow.org/
+  relationship: talk
+  location:
+    city: New York
+    country: United States

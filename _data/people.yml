@@ -1,0 +1,26 @@
+- name: Georgia Bullen
+  short-name: georgia
+  organization:
+    ref: simply
+  link:
+  relationship: co-founder
+
+- short-name: sage
+  name: Sage Cheng
+  organization:
+    ref: access
+  relationship: committee, co-presenter, co-facilitator
+
+- short-name: georgia
+  name: Georgia Bullen
+  organization:
+    ref: simply
+  relationship: co-presenter
+
+- name: Soraya Okuda
+  short-name: soraya
+  organization:
+    ref: eff
+  relationship: co-facilitator, collaborator
+
+- name
