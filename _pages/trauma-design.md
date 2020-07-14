@@ -9,13 +9,16 @@ categories: trauma
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-#### Key terms
+<h4>Key terms</h4>
 
 {% assign termlist = site.data.terms | where_exp: "item", "item.categories contains page.categories" %}
 
 {% for term in termlist %}
-  <h5>{{ term.name }}</h5>
-  <p>{{ term.description }}</p>
+
+<div class="card">
+  <h5 class="card-title">{{ term.name }}</h5>
+  <p class="card-text">{{ term.definition }}</p>
+</div>
 
 {% endfor %}
 
