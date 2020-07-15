@@ -99,7 +99,7 @@ categories: trauma
     {% for items in type %}
       <li>test for loop items: {{ item.type }}</li>
     {% endfor %}
-    {% for each in site.data.movements | where_exp: "item", item.type == type.name %}
+    {% for each in site.data.movements | where_exp: "item", "item.type == type.name" %}
       <li><a href="{{ each.link }}">{{ each.name }}</a></li>
     {% endfor %}
   </ul>
