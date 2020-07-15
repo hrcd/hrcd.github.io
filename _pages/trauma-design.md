@@ -102,10 +102,10 @@ categories: trauma
 {% endfor %}
 </ul>
 
-{% for type in site.data.movements %}
-  <h2>{{ type[0] }}</h2>
+{% for each in site.data.movements %}
+  <h2>{{ each.type[0] }}</h2>
   <ul>
-    {% for movement in type[1] %}
+    {% for movement in each.type[1] %}
       <li><a href="{{ movement.link }}">{{ movement.name }}</a></li>
     {% endfor %}
   </ul>
