@@ -94,9 +94,10 @@ categories: trauma
 
 {% assign movements = site.data.movements | group_by: "type" %}
 {% for type in movements %}
-<h4> {{ type.name }} </h4>
+<h4> {{ type.name | capitalize }} </h4>
   <ul>
-    {% for each in site.data.movements | where_exp: "item", item.type contains type.name %}
+    <li>{{ item.link }}</li>
+    {% for each in site.data.movements | where_exp: "item", item.type == type.name %}
     <li><a href="{{ each.link }}">{{ each.name }}</a></li>
     {% endfor %}
   </ul>
@@ -104,8 +105,8 @@ categories: trauma
 
 {% for movement in site.data.movements %}
   <ul>
-      <li>test: <a href="{{ movement.link }}">{{ movement.name }}</a><br>
-      type: {{ movement.type }} | topics: {{ movement.categories }}</li>
+      <li><a href="{{ movement.link }}">{{ movement.name }}</a><br>
+      Type: {{ movement.type }} | Topics: {{ movement.categories }}</li>
   </ul>
 {% endfor %}
 
