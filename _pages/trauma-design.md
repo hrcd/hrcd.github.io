@@ -93,10 +93,10 @@ categories: trauma
 <h4 id="init">Trauma-related design initiatives</h4>
 
 {% assign movements = site.data.movements | group_by: "type" %}
-{% for movement in movements %}
-<h4> {{ movement.name }} </h4>
+{% for type in movements %}
+<h4> {{ type.name }} </h4>
   <ul>
-    {% for each in movement %}
+    {% for each in site.data.movements | where_exp: "item", item.type contains type.name %}
     <li><a href="{{ each.link }}">{{ each.name }}</a></li>
     {% endfor %}
   </ul>
