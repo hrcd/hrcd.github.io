@@ -97,10 +97,13 @@ categories: trauma
 <h4> {{ type.name | capitalize }} </h4>
   <ul>
     {% for items in type %}
-      <li>test for loop items: {{ item.name }}, {{ item.categories }}</li>
+      {% for item in items %}
+        <li>test for loop items: {{ item.name }}, {{ item.categories }}</li>
+      {% endfor %}
     {% endfor %}
   </ul>
 {% endfor %}
+
 
 {% for movement in site.data.movements %}
   <ul>
