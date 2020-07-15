@@ -93,11 +93,11 @@ categories: trauma
 <h4 id="init">Trauma-related design initiatives</h4>
 
 {% assign movements = site.data.movements | group_by: "type" %}
-{% for type in movements %}
-<h4> {{ type.name | capitalize | split: ", " }} </h4>
+{% for type in movements | split: ", "  %}
+<h4> {{ type.name | capitalize }} </h4>
   <ul>
     {% for item in type.items %}
-        <li>test for loop items: {{ item.name }}, {{ item.categories | split: ", "  }}</li>
+        <li>test for loop items: {{ item.name }}, {{ item.categories  }}</li>
     {% endfor %}
   </ul>
 {% endfor %}
