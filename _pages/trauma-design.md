@@ -97,7 +97,7 @@ categories: trauma
 <h4> {{ movement.type }} </h4>
 <ul>
   {% for each in movement %}
-  <li><a href="{{ each.link }}"{{ each.name }}</a></li>
+  <li><a href="{{ each.link }}">{{ each.name }}</a></li>
   {% endfor %}
 {% endfor %}
 </ul>
