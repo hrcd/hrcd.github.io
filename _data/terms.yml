@@ -2,27 +2,27 @@
   short-name: trauma
   definition: A complex, disruptive, and painful phenomena that people experience individually and collectively from abuse, deprivation, neglect, violence, or other violation of their basic needs and human rights.
   categories: trauma
-  subcat: 101
+  subcat: intro
 
 - name: Triggered/trigger response
   short-name: trigresp
   definition: A person’s extreme, involuntary, rapid, physiological and mental response to an experience that the ‘reptilian’ part of their brain associates with an earlier trauma. Being triggered renders important parts of a person’s physiological and mental capacity temporarily non-functional.
   categories: trauma
   related: ptsd episode, annihalation panic, disociation, rage,
-  subcat: 101
+  subcat: intro
 
 - name: Trigger experience
   short-name: trigexp
   definition: Not all people who experience trauma, experience triggers. It results in greatly reduced capacity for the duration of the person’s response. This experience is frequently, but not always, terrifying for the person involved. It can be extremely difficult for people around the person who is triggered, too.
   categories: trauma
   related: fight or flight
-  subcat: 101
+  subcat: intro
 
 - name: De-escalating
   short-name: deesc
   definition: A person returns from a triggered state to a stasis state (whatever that looks like for each person ie stasis may be comparatively distant from, or close to, the triggered state). This takes at least 1 hour, and up to several days.
   categories: trauma
-  subcat: 101
+  subcat: intro
 
 - name: Trigger/triggering
   short-name: trigger
@@ -34,7 +34,7 @@
   short-name: trigwarn
   definition: A disclaimer given before raising an issue that may be likely to be set off this extreme response in other people who are present. Not every trigger can be given a warning.
   categories: trauma
-  subcat: 101
+  subcat: intro
 
 - name: Trauma origins
   short-name: origins
