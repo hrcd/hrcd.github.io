@@ -22,13 +22,15 @@
   short-name: regu
   definition: A person returns from a triggered state to a stasis state (whatever that looks like for each person ie stasis may be comparatively distant from, or close to, the triggered state). This takes at least 1 hour, and up to several days.
   categories: trauma
+  related: heart rate variability, embodiment
   tags: intro
 
 - name: Trigger/triggering
   short-name: trigger
   definition: An interaction or thing that, when experienced, results individual, in a person becoming triggered. Anything can be a trigger. Triggers are different for different people.
   categories: trauma
-  tags: 101
+  related: hate speech
+  tags: intro
 
 - name: Trigger warning
   short-name: trigwarn
@@ -61,13 +63,14 @@
   short-name: effectcul
   definition: Normalization of violence and disconnection, marginalized people face increased oppression, widespread stress-related illnesses.
   categories: trauma
-  related: captialism, colonialism, xenophobia, eugenics, white supremacy
+  related: captialism, colonialism, eugenics, xenophobia, white supremacy
   tags: harms
 
 - name: Trauma and privilege
   short-name: privilege
   definition: Less diagnoses and more severe symptoms are often experienced by people with less multigenerational and systemic privilege.
   categories: trauma
+  related: mental health, diagnoses, criminalization
   tags: harms
 
 - name: Trauma healing (individual, in a person)
@@ -87,7 +90,7 @@
 - name: Trauma healing (cultural, within large groups of people)
   short-name: healcul
   definition: Lead by previously marginalized and silenced people.
-  related: intersectional feminism, social justice
+  related: intersectional feminism, reparations, social justice, sovereignty
   categories: trauma
   tags: helps
 

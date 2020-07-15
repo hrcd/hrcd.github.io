@@ -3,13 +3,13 @@
   type: collective
   link: http://d4bl.org/
   participate: http://d4bl.org/action.html
-  categories: trauma
+  categories: trauma, justice
 
 - name: Ni Una Menos
   short-name: num
   type: collective
   link: https://niunamenos.org.ar/
-  categories: trauma
+  categories: trauma, justice
 
 - name: Community Data Clinic
   short-name: cdc
@@ -24,7 +24,7 @@
   type: teaching
   organization: MIT
   link: https://codesign.mit.edu/
-  categories: trauma
+  categories: trauma, justice
 
 - name: AI.Assembly
   short-name: aia
@@ -66,7 +66,7 @@
   short-name: fem
   type: concept, book
   link: https://data-feminism.mitpress.mit.edu/dash/collection/adaglgld/overview
-  categories: trauma
+  categories: trauma, justice
 
 - name: Data Feminism Reading Group
   short-name: femread
@@ -84,7 +84,7 @@
   short-name: ftf
   type: manifesto
   link: https://firstthingsfirst2014.net/
-  categories: trauma
+  categories: trauma, activism
 
 - name: Ethical visualization
   short-name: eth
