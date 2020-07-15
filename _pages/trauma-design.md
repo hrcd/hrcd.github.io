@@ -105,7 +105,6 @@ categories: trauma
 {% for movement in site.data.movements %}
   <ul>
       <li>test: <a href="{{ movement.link }}">{{ movement.name }}</a></li>
-    {% endfor %}
   </ul>
 {% endfor %}
 
