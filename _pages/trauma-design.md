@@ -18,10 +18,10 @@ categories: trauma
 {% assign hrcd = site.data.terms | where: "tags", "hrcd" %}
 
 {% for term in termlist %}
-
-  <h5>{{ term.name }}</h5>
-  <p>{{ term.definition }}</p>
-
+<dl>
+  <dt>{{ term.name }}</dt>
+  <dd>{{ term.definition }}</dd>
+</dl>
 {% endfor %}
 
 
