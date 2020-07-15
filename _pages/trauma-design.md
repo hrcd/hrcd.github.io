@@ -99,8 +99,8 @@ categories: trauma
   {% for each in movement %}
   <li><a href="{{ each.link }}">{{ each.name }}</a></li>
   {% endfor %}
-{% endfor %}
 </ul>
+{% endfor %}
 
 {% for movement in site.data.movements %}
   <ul>
