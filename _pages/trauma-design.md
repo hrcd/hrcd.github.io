@@ -25,12 +25,12 @@ categories: trauma
 {% endfor %}
 
 
-<h5 id="101">Trauma 101</h5>
+<h5 id="101">Trauma 101 test</h5>
 
-{% for term in 101 %}
+{% for ter in 101 %}
 
-  <h6>{{ term.name }}</h6>
-  <p >{{ term.definition }}</p>
+  <h6>{{ ter.name }}</h6>
+  <p >{{ ter.definition }}</p>
 
 {% endfor %}
 
