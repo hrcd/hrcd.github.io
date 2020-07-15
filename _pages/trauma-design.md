@@ -94,7 +94,7 @@ categories: trauma
 
 {% assign movements = site.data.movements | group_by: "type" %}
 {% for type in movements  %}
-<h4> {{ type.name | capitalize }} </h4>
+<h5> {{ type.name | capitalize }} </h5>
   <ul>
     {% for item in type.items %}
         <li>test for loop items: {{ item.name }}, {{ item.categories  }}</li>
