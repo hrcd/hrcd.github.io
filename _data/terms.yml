@@ -8,12 +8,14 @@
   short-name: trigresp
   definition: A person’s extreme, involuntary, rapid, physiological and mental response to an experience that the ‘reptilian’ part of their brain associates with an earlier trauma. Being triggered renders important parts of a person’s physiological and mental capacity temporarily non-functional.
   categories: trauma
+  related: ptsd episode, annihalation panic, disociation, rage,
   tags: 101
 
 - name: Trigger experience
   short-name: trigexp
   definition: Not all people who experience trauma, experience triggers. It results in greatly reduced capacity for the duration of the person’s response. This experience is frequently, but not always, terrifying for the person involved. It can be extremely difficult for people around the person who is triggered, too.
   categories: trauma
+  related: fight or flight
   tags: 101
 
 - name: De-escalating
@@ -38,24 +40,28 @@
   short-name: origins
   definition: Trauma has a lot of origins. Debilitating effects of trauma can be caused by a single event, primary, secondary, intergenerational, systemic, environmental.
   categories: trauma
+  related:
   tags: harms
 
 - name: Trauma effects (in a person)
   short-name: effectind
   definition: Compromised immune system, exaggerated startle response, feelings of foreshortened future, absence of felt sense of self
   categories: trauma
+  related: adverse childhood experiences score, post traumatic stress disorder, post traumatic slave syndrome, depression
   tags: harms
 
 - name: Trauma effects (in personal relationships)
   short-name: effectrel
   definition: Annihilation panic, absence of felt sense of connection, normalization of destructive relations.
   categories: trauma
+  related: abuse, domestic violence, gaslighting, harrassment
   tags: harms
 
 - name: Trauma effects (cultural)
   short-name: effectcul
   definition: Normalization of violence and disconnection, marginalized people face increased oppression, widespread stress-related illnesses.
   categories: trauma
+  related: white supremacy, fascism, eugenics, hate speech, captialism, colonialism, racism, sexism, ableism,
   tags: harms
 
 - name: Trauma and privilege
@@ -67,27 +73,29 @@
 - name: Trauma healing (in a person)
   short-name: healind
   definition: A person with a grounded, regulated, and resilient neurophysiology will experience potentially traumatic events, and heal from those events, in very close proximity to one another (sometimes in miliseconds).
-  related: post traumatic growth, 
+  related: post traumatic growth, eye movement desensitization response
   categories: trauma
   tags: helps
 
 - name: Trauma healing (in personal relationships)
   short-name: healrel
   definition: The capacity for people to relate to one another without debilitating, terrifying, or otherwise disruptive symptoms inhibiting interpersonal connection.
-  categories: trauma
+  related: harm reduction
+  categories: trauma, neuroaffective relational model
   tags: helps
 
 - name: Trauma healing (cultural)
   short-name: healcul
   definition: Lead by previously marginalized people.
   categories: trauma
+  related: intersectional feminism, social justice
   tags: helps
 
 - name: trauma and social justice
   short-name: socjust
   definition: Trauma can be seen and used as an intersectional term. Healing trauma is a form of intersectional liberation. Trauma healing and social justice work require one another.
   categories: trauma
-  tags: helps
+  tags: hrcd
 
 - name: trauma and design
   short-name: tdesign

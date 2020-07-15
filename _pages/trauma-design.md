@@ -19,17 +19,17 @@ categories: trauma
 
 {% for term in termlist %}
 
-  <h6>{{ term.name }}</h5>
+  <h5>{{ term.name }}</h5>
   <p>{{ term.definition }}</p>
 
 {% endfor %}
 
 
-<h5 id="101">Trauma 101</h4>
+<h5 id="101">Trauma 101</h5>
 
 {% for term in 101 %}
 
-  <h5 >{{ term.name }}</h5>
+  <h6>{{ term.name }}</h6>
   <p >{{ term.definition }}</p>
 
 {% endfor %}
