@@ -8,18 +8,18 @@
   short-name: trigresp
   definition: A person’s extreme, involuntary, rapid, physiological and mental response to an experience that the ‘reptilian’ part of their brain associates with an earlier trauma. Being triggered renders important parts of a person’s physiological and mental capacity temporarily non-functional.
   categories: trauma
-  related: ptsd episode, annihalation panic, disociation, rage
+  related: amygdala hijack, ptsd episode, annihalation panic, disociation, rage
   tags: intro
 
 - name: Trigger experience
   short-name: trigexp
   definition: Not all people who experience trauma, experience triggers. It results in greatly reduced capacity for the duration of the person’s response. This experience is frequently, but not always, terrifying for the person involved. It can be extremely difficult for people around the person who is triggered, too.
   categories: trauma
-  related: fight or flight
+  related: fight or flight, freeze, fawn response
   tags: intro
 
-- name: De-escalating
-  short-name: deesc
+- name: Regulating
+  short-name: regu
   definition: A person returns from a triggered state to a stasis state (whatever that looks like for each person ie stasis may be comparatively distant from, or close to, the triggered state). This takes at least 1 hour, and up to several days.
   categories: trauma
   tags: intro
@@ -61,7 +61,7 @@
   short-name: effectcul
   definition: Normalization of violence and disconnection, marginalized people face increased oppression, widespread stress-related illnesses.
   categories: trauma
-  related: white supremacy, fascism, eugenics, hate speech, captialism, colonialism, racism, sexism, ableism,
+  related: captialism, colonialism, xenophobia, eugenics, white supremacy
   tags: harms
 
 - name: Trauma and privilege
@@ -73,22 +73,22 @@
 - name: Trauma healing (individual, in a person)
   short-name: healind
   definition: A person with a grounded, regulated, and resilient neurophysiology will experience potentially traumatic events, and heal from those events, in very close proximity to one another (sometimes in miliseconds).
-  related: post traumatic growth, eye movement desensitization response
+  related: post traumatic growth, fear extinction
   categories: trauma
   tags: helps
 
 - name: Trauma healing (relational, people relating to one another)
   short-name: healrel
   definition: The capacity for people to relate to one another without debilitating, terrifying, or otherwise disruptive symptoms inhibiting interpersonal connection.
-  related: harm reduction
-  categories: trauma, neuroaffective relational model
+  related: harm reduction, neuroaffective relational model, care ethics
+  categories: trauma
   tags: helps
 
 - name: Trauma healing (cultural, within large groups of people)
   short-name: healcul
-  definition: Lead by previously marginalized people.
-  categories: trauma
+  definition: Lead by previously marginalized and silenced people.
   related: intersectional feminism, social justice
+  categories: trauma
   tags: helps
 
 - name: trauma and social justice
@@ -102,3 +102,15 @@
   definition: Design is both a contributor to trauma and a tool that can be used for healing from trauma.
   categories: trauma
   tags: hrcd
+
+- name: design as an origin of trauma
+  short-name: dato
+  definition: When an experience of design (as a user of a designed thing, service, or experience; or as a person working within a design industry) functions as a trauma trigger for one or more people.
+  categories: trauma
+  related: dark patterns, disinformation
+  tags: hrcd
+
+- name: design as a source of healing from trauma
+  short-name: sohft
+  definition: When an experience of design facilitates healing from trauma for one or more people.
+  related: biofeedback, inclusion nudges
