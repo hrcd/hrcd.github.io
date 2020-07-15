@@ -12,7 +12,7 @@ categories: trauma
 <h4 id="terms">Key terms</h4>
 
 {% assign termlist = site.data.terms | where_exp: "item", "item.categories contains page.categories" %}
-{% assign introterms = site.data.terms | where_exp: "item", "item.subcat contains 'intro'" %}
+{% assign introterms = site.data.terms | where_exp: "item", "item.tags contains 'intro'" %}
 {% assign harms = site.data.terms | where: "tags", "harms" %}
 {% assign helps = site.data.terms | where: "tags", "helps" %}
 {% assign hrcd = site.data.terms | where: "tags", "hrcd" %}
@@ -25,12 +25,19 @@ categories: trauma
 {% endfor %}
 
 
-<h5 id="101">Trauma 101 test</h5>
+<h5 id="101">Trauma 101</h5>
 
-{% for ter in introterms %}
+{% for term in introterms %}
 
-  <h6>{{ ter.name }}</h6>
-  <p >{{ ter.definition }}</p>
+<dl>
+  <dt>{{ term.name }}</dt>
+  <dd>{{ term.definition }}
+
+  {% if term.related != "" %}<br>
+  <strong>Related:</strong> {{ term.related }}
+  {% endif %}
+  </dd>
+</dl>
 
 {% endfor %}
 

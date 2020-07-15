@@ -2,103 +2,103 @@
   short-name: trauma
   definition: A complex, disruptive, and painful phenomena that people experience individually and collectively from abuse, deprivation, neglect, violence, or other violation of their basic needs and human rights.
   categories: trauma
-  subcat: intro
+  tags: intro
 
 - name: Triggered/trigger response
   short-name: trigresp
   definition: A person’s extreme, involuntary, rapid, physiological and mental response to an experience that the ‘reptilian’ part of their brain associates with an earlier trauma. Being triggered renders important parts of a person’s physiological and mental capacity temporarily non-functional.
   categories: trauma
   related: ptsd episode, annihalation panic, disociation, rage,
-  subcat: intro
+  tags: intro
 
 - name: Trigger experience
   short-name: trigexp
   definition: Not all people who experience trauma, experience triggers. It results in greatly reduced capacity for the duration of the person’s response. This experience is frequently, but not always, terrifying for the person involved. It can be extremely difficult for people around the person who is triggered, too.
   categories: trauma
   related: fight or flight
-  subcat: intro
+  tags: intro
 
 - name: De-escalating
   short-name: deesc
   definition: A person returns from a triggered state to a stasis state (whatever that looks like for each person ie stasis may be comparatively distant from, or close to, the triggered state). This takes at least 1 hour, and up to several days.
   categories: trauma
-  subcat: intro
+  tags: intro
 
 - name: Trigger/triggering
   short-name: trigger
   definition: An interaction or thing that, when experienced, results in a person becoming triggered. Anything can be a trigger. Triggers are different for different people.
   categories: trauma
-  subcat: 101
+  tags: 101
 
 - name: Trigger warning
   short-name: trigwarn
   definition: A disclaimer given before raising an issue that may be likely to be set off this extreme response in other people who are present. Not every trigger can be given a warning.
   categories: trauma
-  subcat: intro
+  tags: intro
 
 - name: Trauma origins
   short-name: origins
   definition: Trauma has a lot of origins. Debilitating effects of trauma can be caused by a single event, primary, secondary, intergenerational, systemic, environmental.
   categories: trauma
   related:
-  subcat: harms
+  tags: harms
 
 - name: Trauma effects (in a person)
   short-name: effectind
   definition: Compromised immune system, exaggerated startle response, feelings of foreshortened future, absence of felt sense of self
   categories: trauma
   related: adverse childhood experiences score, post traumatic stress disorder, post traumatic slave syndrome, depression
-  subcat: harms
+  tags: harms
 
 - name: Trauma effects (in personal relationships)
   short-name: effectrel
   definition: Annihilation panic, absence of felt sense of connection, normalization of destructive relations.
   categories: trauma
   related: abuse, domestic violence, gaslighting, harrassment
-  subcat: harms
+  tags: harms
 
 - name: Trauma effects (cultural)
   short-name: effectcul
   definition: Normalization of violence and disconnection, marginalized people face increased oppression, widespread stress-related illnesses.
   categories: trauma
   related: white supremacy, fascism, eugenics, hate speech, captialism, colonialism, racism, sexism, ableism,
-  subcat: harms
+  tags: harms
 
 - name: Trauma and privilege
   short-name: privilege
   definition: Less diagnoses and more severe symptoms are often experienced by people with less multigenerational and systemic privilege.
   categories: trauma
-  subcat: harms
+  tags: harms
 
 - name: Trauma healing (in a person)
   short-name: healind
   definition: A person with a grounded, regulated, and resilient neurophysiology will experience potentially traumatic events, and heal from those events, in very close proximity to one another (sometimes in miliseconds).
   related: post traumatic growth, eye movement desensitization response
   categories: trauma
-  subcat: helps
+  tags: helps
 
 - name: Trauma healing (in personal relationships)
   short-name: healrel
   definition: The capacity for people to relate to one another without debilitating, terrifying, or otherwise disruptive symptoms inhibiting interpersonal connection.
   related: harm reduction
   categories: trauma, neuroaffective relational model
-  subcat: helps
+  tags: helps
 
 - name: Trauma healing (cultural)
   short-name: healcul
   definition: Lead by previously marginalized people.
   categories: trauma
   related: intersectional feminism, social justice
-  subcat: helps
+  tags: helps
 
 - name: trauma and social justice
   short-name: socjust
   definition: Trauma can be seen and used as an intersectional term. Healing trauma is a form of intersectional liberation. Trauma healing and social justice work require one another.
   categories: trauma
-  subcat: hrcd
+  tags: hrcd
 
 - name: trauma and design
   short-name: tdesign
   definition: Design is both a contributor to trauma and a tool that can be used for healing from trauma.
   categories: trauma
-  subcat: hrcd
+  tags: hrcd
