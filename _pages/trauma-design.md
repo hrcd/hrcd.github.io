@@ -97,7 +97,7 @@ categories: trauma
 <h4> {{ type.name | capitalize }} </h4>
   <ul>
     <li>test items: {{ items.name }}</li>
-    {% for items in type %}
+    {% for items in movements %}
         <li>test for loop items: {{ items.name }}, {{ items.categories }}</li>
     {% endfor %}
   </ul>
@@ -107,7 +107,7 @@ categories: trauma
 {% for movement in site.data.movements %}
   <ul>
       <li><a href="{{ movement.link }}">{{ movement.name }}</a><br>
-      Type: {{ movement.type }} | Topics: {{ movement.categories }}</li>
+      Type: {{ movement.type | Capitalize }} | Topics: {{ movement.categories }}</li>
   </ul>
 {% endfor %}
 
