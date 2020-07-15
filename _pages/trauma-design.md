@@ -96,7 +96,7 @@ categories: trauma
 {% for type in movements %}
 <h4> {{ type.name | capitalize }} </h4>
   <ul>
-    <li>{{ item.link }}</li>
+    <li>{{ item.name }}</li>
     {% for each in site.data.movements | where_exp: "item", item.type == type.name %}
     <li><a href="{{ each.link }}">{{ each.name }}</a></li>
     {% endfor %}
