@@ -12,7 +12,7 @@ categories: trauma
 <h4 id="terms">Key terms</h4>
 
 {% assign termlist = site.data.terms | where_exp: "item", "item.categories contains page.categories" %}
-{% assign 101 = site.data.terms | where: "tags", "101" %}
+{% assign 101 = site.data.terms | where_exp: "item", "item.tags contains '101'" %}
 {% assign harms = site.data.terms | where: "tags", "harms" %}
 {% assign helps = site.data.terms | where: "tags", "helps" %}
 {% assign hrcd = site.data.terms | where: "tags", "hrcd" %}
