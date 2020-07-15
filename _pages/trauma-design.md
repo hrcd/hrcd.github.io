@@ -33,7 +33,7 @@ categories: trauma
   <dt>{{ term.name }}</dt>
   <dd>{{ term.definition }}
 
-  {% if term.related != "" %}<br>
+  {% if term.related != nil %}<br>
   <strong>Related:</strong> {{ term.related }}
   {% endif %}
   </dd>
