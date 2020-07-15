@@ -26,7 +26,7 @@
 
 - name: Trigger/triggering
   short-name: trigger
-  definition: An interaction or thing that, when experienced, results in a person becoming triggered. Anything can be a trigger. Triggers are different for different people.
+  definition: An interaction or thing that, when experienced, results individual, in a person becoming triggered. Anything can be a trigger. Triggers are different for different people.
   categories: trauma
   tags: 101
 
@@ -43,21 +43,21 @@
   related:
   tags: harms
 
-- name: Trauma effects (in a person)
+- name: Trauma effects (individual, in a person)
   short-name: effectind
   definition: Compromised immune system, exaggerated startle response, feelings of foreshortened future, absence of felt sense of self
   categories: trauma
   related: adverse childhood experiences score, post traumatic stress disorder, post traumatic slave syndrome, depression
   tags: harms
 
-- name: Trauma effects (in personal relationships)
+- name: Trauma effects (relational, people relating to one another)
   short-name: effectrel
   definition: Annihilation panic, absence of felt sense of connection, normalization of destructive relations.
   categories: trauma
   related: abuse, domestic violence, gaslighting, harrassment
   tags: harms
 
-- name: Trauma effects (cultural)
+- name: Trauma effects (cultural, within large groups of people)
   short-name: effectcul
   definition: Normalization of violence and disconnection, marginalized people face increased oppression, widespread stress-related illnesses.
   categories: trauma
@@ -70,21 +70,21 @@
   categories: trauma
   tags: harms
 
-- name: Trauma healing (in a person)
+- name: Trauma healing (individual, in a person)
   short-name: healind
   definition: A person with a grounded, regulated, and resilient neurophysiology will experience potentially traumatic events, and heal from those events, in very close proximity to one another (sometimes in miliseconds).
   related: post traumatic growth, eye movement desensitization response
   categories: trauma
   tags: helps
 
-- name: Trauma healing (in personal relationships)
+- name: Trauma healing (relational, people relating to one another)
   short-name: healrel
   definition: The capacity for people to relate to one another without debilitating, terrifying, or otherwise disruptive symptoms inhibiting interpersonal connection.
   related: harm reduction
   categories: trauma, neuroaffective relational model
   tags: helps
 
-- name: Trauma healing (cultural)
+- name: Trauma healing (cultural, within large groups of people)
   short-name: healcul
   definition: Lead by previously marginalized people.
   categories: trauma

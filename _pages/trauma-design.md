@@ -12,20 +12,14 @@ categories: trauma
 <h4 id="terms">Key terms</h4>
 
 {% assign termlist = site.data.terms | where_exp: "item", "item.categories contains page.categories" %}
-{% assign introterms = site.data.terms | where_exp: "item", "item.tags contains 'intro'" %}
+{% assign introterms = site.data.terms | where_exp: "item", "item.categories contains page.categories and item.tags contains 'intro'" %}
 {% assign harms = site.data.terms | where: "tags", "harms" %}
 {% assign helps = site.data.terms | where: "tags", "helps" %}
 {% assign hrcd = site.data.terms | where: "tags", "hrcd" %}
 
-{% for term in termlist %}
-<dl>
-  <dt>{{ term.name }}</dt>
-  <dd>{{ term.definition }}</dd>
-</dl>
-{% endfor %}
-
 
 <h5 id="101">Trauma 101</h5>
+<p>What do we talk about when we talk about trauma? Some of the commonly used terms, and our collective understandings of them.</p>
 
 {% for term in introterms %}
 
@@ -34,7 +28,58 @@ categories: trauma
   <dd>{{ term.definition }}
 
   {% if term.related != nil %}<br>
-  <strong>Related:</strong> {{ term.related }}
+  <strong>Related terms:</strong> {{ term.related }}
+  {% endif %}
+  </dd>
+</dl>
+
+{% endfor %}
+
+<h5 id="harms">Harms related to Trauma</h5>
+<p>What are the negative associations with trauma? Our understandings of the origins of trauma, and harms or negative effects associated with it.</p>
+
+{% for term in harms %}
+
+<dl>
+  <dt>{{ term.name }}</dt>
+  <dd>{{ term.definition }}
+
+  {% if term.related != nil %}<br>
+  <strong>Related terms:</strong> {{ term.related }}
+  {% endif %}
+  </dd>
+</dl>
+
+{% endfor %}
+
+<h5 id="harms">Healing related to Trauma</h5>
+<p>What are the positive associations with trauma? Our understandings of the healthy and healing associations with trauma, and benefits arising from it.</p>
+
+{% for term in harms %}
+
+<dl>
+  <dt>{{ term.name }}</dt>
+  <dd>{{ term.definition }}
+
+  {% if term.related != nil %}<br>
+  <strong>Related terms:</strong> {{ term.related }}
+  {% endif %}
+  </dd>
+</dl>
+
+{% endfor %}
+
+<h5 id="hrcd">Trauma and human rights centered design</h5>
+<p>How does human rights centered design relate to trauma? Our early thoughts on trauma as an intersectional term, and a lens through which to view human rights centered design work.</p>
+
+{% for term in hrcd %}
+
+<dl>
+  <dt>{{ term.name }}</dt>
+  <dd>{{ term.definition }}
+
+  {% if term.related != nil %}<br>
+  <strong>Related terms:</strong> {{ term.related }}
   {% endif %}
   </dd>
 </dl>
