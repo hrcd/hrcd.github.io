@@ -97,10 +97,7 @@ categories: trauma
 <h4> {{ type.name | capitalize }} </h4>
   <ul>
     {% for items in type %}
-      <li>test for loop items: {{ item.type }}</li>
-    {% endfor %}
-    {% for each in site.data.movements | where_exp: "item", "item.type == type.name" %}
-      <li><a href="{{ each.link }}">{{ each.name }}</a></li>
+      <li>test for loop items: {{ item.name }}, {{ item.categories }}</li>
     {% endfor %}
   </ul>
 {% endfor %}
