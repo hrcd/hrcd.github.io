@@ -64,7 +64,7 @@
 
 - name: Data feminism
   short-name: fem
-  type: concept
+  type: concept, book
   link: https://data-feminism.mitpress.mit.edu/dash/collection/adaglgld/overview
   categories: trauma, justice
 

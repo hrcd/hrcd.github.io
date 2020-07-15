@@ -94,11 +94,10 @@ categories: trauma
 
 {% assign movements = site.data.movements | group_by: "type" %}
 {% for type in movements %}
-<h4> {{ type.name | capitalize }} </h4>
+<h4> {{ type.name | capitalize | split: ", " }} </h4>
   <ul>
-    <li>test items: {{ items.name }}</li>
-    {% for items in movements %}
-        <li>test for loop items: {{ items.name }}, {{ items.categories }}</li>
+    {% for item in type.items %}
+        <li>test for loop items: {{ item.name }}, {{ item.categories | split: ", "  }}</li>
     {% endfor %}
   </ul>
 {% endfor %}
@@ -107,7 +106,7 @@ categories: trauma
 {% for movement in site.data.movements %}
   <ul>
       <li><a href="{{ movement.link }}">{{ movement.name }}</a><br>
-      Type: {{ movement.type | Capitalize }} | Topics: {{ movement.categories }}</li>
+      Type: {{ movement.type | capitalize }} | Topics: {{ movement.categories }}</li>
   </ul>
 {% endfor %}
 
