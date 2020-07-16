@@ -10,6 +10,7 @@ categories: trauma
 <div class="col-md-8 pr-5">
 
 <h4 id="terms">Key terms</h4>
+<p>The terms listed below are intentionally framed in plain language, or words that are commonly used in conversation. A wide range of disciplines discuss, document, studiy, and ameliorate trauma, including: behavioral health, psychology. Each discipline has specialist terms to describe various aspects of trauma; these are listed in the 'related terms' section below each main term. Experts related to terms are also listed below.</p>
 
 {% assign termlist = site.data.terms | where_exp: "item", "item.categories contains page.categories" %}
 {% assign introterms = site.data.terms | where_exp: "item", "item.tags contains 'intro'" %}
@@ -84,6 +85,10 @@ categories: trauma
   {% if term.related != nil %}<br>
   <strong>Related terms:</strong> {{ term.related }}
   {% endif %}
+
+  {% if term.related != nil %}<br>
+  <strong>Related terms:</strong> {{ term.related }}
+  {% endif %}
   </dd>
 </dl>
 
@@ -97,8 +102,8 @@ categories: trauma
 <h5> {{ type.name | capitalize }} </h5>
   <ul>
     {% for item in type.items %}
-        <li><a href="{{ movement.link }}">{{ movement.name }}</a><br>
-        Type: {{ movement.type | capitalize }} | Topics: {{ movement.categories | capitalize }}</li>
+        <li><a href="{{ item.link }}">{{ item.name }}</a><br>
+        Type: {{ item.type | capitalize }} | Topics: {{ item.categories | capitalize }}</li>
     {% endfor %}
   </ul>
 {% endfor %}
