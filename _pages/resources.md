@@ -13,7 +13,7 @@ comments: false
 <ul>
   <li><a href="https://hrcd.github.io/trauma#terms">Key terms</a></li>
   <li><a href="https://hrcd.github.io/trauma#init">Related initiatives</a></li>
-  <li><a href="">Trigger self-care and first aid</a></li>
+  <li><a href="https://hrcd.github.io/trauma#init">Trigger self-care and first aid</a></li>
 </ul>
 
 <h4>Topic Area</h4>

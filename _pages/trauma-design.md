@@ -33,7 +33,7 @@ categories: trauma
   {% endif %}
 
   {% if term.people != nil %}<br>
-  <strong>People doing pioneering related work:</strong> {{ term.people }}
+  <strong>People doing work in this area:</strong> {{ term.people }}
   {% endif %}
   </dd>
 </dl>
@@ -115,11 +115,23 @@ categories: trauma
   <ul>
     {% for movement in type.items %}
         <li><a href="{{ movement.link }}">{{ movement.name }}</a><br>
-        Type: {{ movement.type | capitalize }} | Topics: {{ movement.categories | capitalize }}</li>
+        <strong>Type:</strong> {{ movement.type | capitalize }} | <strong>Topics:</strong> {{ movement.categories | capitalize }}</li>
     {% endfor %}
   </ul>
 {% endfor %}
 
+<h4 id="aid">Trigger self-care and first aid</h4>
+<p><em>When a trigger is experienced, there are many strategies from a wide range of knowledge traditions that can assist a triggered person with regulating, and accelerate returning to a non-triggered state. Some of the ones listed below we have found personally helpful.</em></p>
+
+<ul>
+  <li>jin shen point 17 - deactivates the vagus nerve</li>
+  <li>3-4-5 breathing - stimulates the respiratory pacemaker in the brain</li>
+  <li>orienting ("here we all are, safe together") - speeds reversal of amygdala hijack through combination of somatic experiencing and prefrontal reasoning.</li>
+  <li>patting</li>
+  <li>tapping</li>
+  <li>grounding</li>
+  <li>grounding</li>
+</ul>
 
 </div>
 
