@@ -31,6 +31,10 @@ categories: trauma
   {% if term.related != nil %}<br>
   <strong>Related terms:</strong> {{ term.related }}
   {% endif %}
+
+  {% if term.people != nil %}<br>
+  <strong>People doing pioneering related work:</strong> {{ term.people }}
+  {% endif %}
   </dd>
 </dl>
 
@@ -49,6 +53,10 @@ categories: trauma
   {% if term.related != nil %}<br>
   <strong>Related terms:</strong> {{ term.related }}
   {% endif %}
+
+  {% if term.people != nil %}<br>
+  <strong>People doing pioneering related work:</strong> {{ term.people }}
+  {% endif %}
   </dd>
 </dl>
 
@@ -66,6 +74,10 @@ categories: trauma
 
   {% if term.related != nil %}<br>
   <strong>Related terms:</strong> {{ term.related }}
+  {% endif %}
+
+  {% if term.people != nil %}<br>
+  <strong>People doing pioneering related work:</strong> {{ term.people }}
   {% endif %}
   </dd>
 </dl>
@@ -86,12 +98,8 @@ categories: trauma
   <strong>Related terms:</strong> {{ term.related }}
   {% endif %}
 
-  {% if term.related != nil %}<br>
-  <strong>Related terms:</strong> {{ term.related }}
-  {% endif %}
-
   {% if term.people != nil %}<br>
-  <strong>People doing pioneering related work:</strong> {{ term.related }}
+  <strong>People doing pioneering related work:</strong> {{ term.people }}
   {% endif %}
   </dd>
 </dl>
