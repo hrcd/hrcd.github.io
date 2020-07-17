@@ -127,10 +127,12 @@ categories: trauma
   <li>jin shen point 17 - deactivates the vagus nerve</li>
   <li>3-4-5 breathing - stimulates the respiratory pacemaker in the brain</li>
   <li>orienting ("here we all are, safe together") - speeds reversal of amygdala hijack through combination of somatic experiencing and prefrontal reasoning.</li>
+  <li>breath of fire - stimulates the respiratory pacemaker in the brain</li>
+  <li>chanting</li>
+  <li>therapeutic tremoring</li>
   <li>patting</li>
-  <li>tapping</li>
   <li>grounding</li>
-  <li>grounding</li>
+  <li>high energy movement / dancing</li>
 </ul>
 
 </div>
