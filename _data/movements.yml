@@ -3,13 +3,13 @@
   type: collective
   link: http://d4bl.org/
   participate: http://d4bl.org/action.html
-  categories: trauma, justice
+  categories: trauma, justice, representation
 
 - name: Ni Una Menos
   short-name: num
   type: collective
   link: https://niunamenos.org.ar/
-  categories: trauma, justice
+  categories: trauma, justice, representation, visualization
 
 - name: Community Data Clinic
   short-name: cdc
@@ -17,7 +17,7 @@
   organization:
     ref: illinois
   link: https://publish.illinois.edu/communitydata/
-  categories: trauma
+  categories: trauma, visualization
 
 - name: Collaborative Design Studio
   short-name: coll
@@ -30,13 +30,13 @@
   short-name: aia
   type: repository
   link: https://aiassembly.io/
-  categories: trauma
+  categories: trauma, machine learning
 
 - name: Calm Technology
   short-name: calm
   type: concept
   link: https://calmtech.com/
-  categories: trauma
+  categories: trauma, prevention
 
 - name: Center for Humane Technology
   short-name: humane

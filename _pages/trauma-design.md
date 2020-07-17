@@ -101,18 +101,10 @@ categories: trauma
 {% for type in movements  %}
 <h5> {{ type.name | capitalize }} </h5>
   <ul>
-    {% for item in type.items %}
-        <li><a href="{{ item.link }}">{{ item.name }}</a><br>
-        Type: {{ item.type | capitalize }} | Topics: {{ item.categories | capitalize }}</li>
+    {% for movement in type.items %}
+        <li><a href="{{ movement.link }}">{{ movement.name }}</a><br>
+        Type: {{ movement.type | capitalize }} | Topics: {{ movement.categories | capitalize }}</li>
     {% endfor %}
-  </ul>
-{% endfor %}
-
-
-{% for movement in site.data.movements %}
-  <ul>
-      <li><a href="{{ movement.link }}">{{ movement.name }}</a><br>
-      Type: {{ movement.type | capitalize }} | Topics: {{ movement.categories }}</li>
   </ul>
 {% endfor %}
 

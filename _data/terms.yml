@@ -40,30 +40,30 @@
 
 - name: Trauma origins
   short-name: origins
-  definition: Trauma has a lot of origins. Debilitating effects of trauma can be caused by a single event, primary, secondary, intergenerational, systemic, environmental.
+  definition: Trauma has a lot of origins. Debilitating effects of trauma can be caused by a single event, primary, secondary, ancestral/intergenerational, systemic, environmental.
   categories: trauma
   related:
   tags: harms
 
 - name: Trauma effects (individual, in a person)
   short-name: effectind
-  definition: Compromised immune system, exaggerated startle response, feelings of foreshortened future, absence of felt sense of self
+  definition: Compromised immune system, exaggerated startle response, feelings of foreshortened future, absence of felt sense of self;.
   categories: trauma
-  related: adverse childhood experiences score, post traumatic stress disorder, post traumatic slave syndrome, depression
+  related: adverse childhood experiences score, anxiety, autoimmune diseases, depression, heart disease, post traumatic stress disorder, post traumatic slave syndrome
   tags: harms
 
 - name: Trauma effects (relational, people relating to one another)
   short-name: effectrel
   definition: Annihilation panic, absence of felt sense of connection, normalization of destructive relations.
   categories: trauma
-  related: abuse, domestic violence, gaslighting, harrassment
+  related: abuse, domestic violence, gaslighting, harrassment, hungry ghosts
   tags: harms
 
 - name: Trauma effects (cultural, within large groups of people)
   short-name: effectcul
-  definition: Normalization of violence and disconnection, marginalized people face increased oppression, widespread stress-related illnesses.
+  definition: Normalization of violence and disconnection, marginalized people face increased oppression, and widespread stress-related illnesses.
   categories: trauma
-  related: captialism, colonialism, eugenics, xenophobia, white supremacy
+  related: captialism, colonialism, eugenics, genocide, slavery, xenophobia, white supremacy
   tags: harms
 
 - name: Trauma and privilege
@@ -76,7 +76,7 @@
 - name: Trauma healing (individual, in a person)
   short-name: healind
   definition: A person with a grounded, regulated, and resilient neurophysiology will experience potentially traumatic events, and heal from those events, in very close proximity to one another (sometimes in miliseconds).
-  related: post traumatic growth, fear extinction
+  related: post traumatic growth, fear extinction, positive psychology, neuroaffective regulation
   categories: trauma
   tags: helps
 
@@ -110,11 +110,11 @@
   short-name: dato
   definition: When an experience of design (as a user of a designed thing, service, or experience; or as a person working within a design industry) functions as a trauma trigger for one or more people.
   categories: trauma
-  related: dark patterns, disinformation
+  related: dark patterns, disinformation, misrepresentation
   tags: hrcd
 
 - name: design as a source of healing from trauma
   short-name: sohft
   definition: When an experience of design facilitates healing from trauma for one or more people.
-  related: biofeedback, inclusion nudges, design justice, cognitive justice, decolonizing design, design activism
+  related: biofeedback, inclusion nudges, design justice, cognitive justice, decolonizing design, design activism, ethical visualization, data feminism, calm technology, humane technology, empathic computing
   tags: helps
