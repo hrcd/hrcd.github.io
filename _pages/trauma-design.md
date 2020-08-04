@@ -1,16 +1,13 @@
 ---
-layout: page
 title: Trauma & design
 permalink: /trauma
 comments: false
 categories: trauma
 ---
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+# Key terms
 
-<h4 id="terms">Key terms</h4>
-<p>The terms listed below are intentionally framed in plain language, or words that are commonly used in conversation. A wide range of disciplines discuss, document, studiy, and ameliorate trauma, including: behavioral health, psychology. Each discipline has specialist terms to describe various aspects of trauma; these are listed in the 'related terms' section below each main term. Experts related to terms are also listed below.</p>
+The terms listed below are intentionally framed in plain language, or words that are commonly used in conversation. A wide range of disciplines contribute to, document, study, or ameliorate trauma, including: behavioral health, clinical psychology, decolonial studies, education, gender studies, indigenous studies, law, neurophysiology, positive psychology, public health, social justice, and wellness. Each discipline has specialist terms to describe various aspects of trauma; these are listed in the 'related terms' section below each main term.
 
 {% assign termlist = site.data.terms | where_exp: "item", "item.categories contains page.categories" %}
 {% assign introterms = site.data.terms | where_exp: "item", "item.tags contains 'intro'" %}
@@ -19,13 +16,14 @@ categories: trauma
 {% assign hrcd = site.data.terms | where: "tags", "hrcd" %}
 
 
-<h5 id="101">Trauma 101</h5>
-<p><em>What do we talk about when we talk about trauma? Some of the commonly used terms, and our collective understandings of them.</em></p>
+## Trauma 101
+
+*What do we talk about when we talk about trauma? Some of the commonly used terms, and our collective understandings of them.*
 
 {% for term in introterms %}
 
 <dl>
-  <dt>{{ term.name }}</dt>
+  <dt>{{ term.name | capitalize }}</dt>
   <dd>{{ term.definition }}
 
   {% if term.related != nil %}<br>
@@ -40,14 +38,15 @@ categories: trauma
 
 {% endfor %}
 
-<hr>
-<h5 id="harms">Harms related to Trauma</h5>
-<p><em>What are the negative associations with trauma? Our understandings of the origins of trauma, and harms or negative effects associated with it.</em></p>
+---
+## Harms related to Trauma
 
-{% for term in harms %}
+*What are the negative associations with trauma? Our understandings of the origins of trauma, and harms or negative effects associated with it.*
+
+{% for term in site.data.terms | where: "tags", "harms" %}
 
 <dl>
-  <dt>{{ term.name }}</dt>
+  <dt>{{ term.name | capitalize  }}</dt>
   <dd>{{ term.definition }}
 
   {% if term.related != nil %}<br>
@@ -62,14 +61,15 @@ categories: trauma
 
 {% endfor %}
 
-<hr>
-<h5 id="harms">Healing related to trauma</h5>
-<p><em>What are the positive associations with trauma? Our understandings of the healthy and healing associations with trauma, and benefits arising from it.</em></p>
+---
+## Healing related to trauma
 
-{% for term in helps %}
+*What are the positive associations with trauma? Our understandings of the healthy and healing associations with trauma, and benefits arising from it.*
+
+{% for term in site.data.terms | where: "tags", "helps" %}
 
 <dl>
-  <dt>{{ term.name }}</dt>
+  <dt>{{ term.name | capitalize  }}</dt>
   <dd>{{ term.definition }}
 
   {% if term.related != nil %}<br>
@@ -84,14 +84,16 @@ categories: trauma
 
 {% endfor %}
 
-<hr>
-<h5 id="hrcd">Trauma and human rights centered design</h5>
-<p><em>How does human rights centered design relate to trauma? Our early thoughts on trauma as an intersectional term, and a lens through which to view human rights centered design work.</em></p>
+---
+
+## Trauma and human rights centered design
+
+*How does human rights centered design relate to trauma? Our early thoughts on trauma as an intersectional term, and a lens through which to view human rights centered design work.*
 
 {% for term in hrcd %}
 
 <dl>
-  <dt>{{ term.name }}</dt>
+  <dt>{{ term.name | capitalize  }}</dt>
   <dd>{{ term.definition }}
 
   {% if term.related != nil %}<br>
@@ -106,12 +108,13 @@ categories: trauma
 
 {% endfor %}
 
+---
 
-<h4 id="init">Trauma-related design initiatives</h4>
+## Trauma-related design initiatives
 
 {% assign movements = site.data.movements | group_by: "type" %}
 {% for type in movements  %}
-<h5> {{ type.name | capitalize }} </h5>
+<h4> {{ type.name | capitalize }} </h4>
   <ul>
     {% for movement in type.items %}
         <li><a href="{{ movement.link }}">{{ movement.name }}</a><br>
@@ -120,8 +123,10 @@ categories: trauma
   </ul>
 {% endfor %}
 
-<h4 id="aid">Trigger self-care and first aid</h4>
-<p><em>When a trigger is experienced, there are many strategies from a wide range of knowledge traditions that can assist a triggered person with regulating, and accelerate returning to a non-triggered state. Some of the ones listed below we have found personally helpful.</em></p>
+---
+
+## Trigger self-care and first aid
+When a trigger is experienced, there are many strategies from a wide range of knowledge traditions that can assist a triggered person with regulating, and accelerate returning to a non-triggered state. Some of the ones listed below we have found personally helpful.
 
 <ul>
   <li>jin shen point 17 - deactivates the vagus nerve</li>
@@ -134,7 +139,3 @@ categories: trauma
   <li>grounding</li>
   <li>high energy movement / dancing</li>
 </ul>
-
-</div>
-
-</div>

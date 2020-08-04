@@ -1,3 +1,9 @@
+- name: Digital Democracy
+  short-name: digidem
+  type: consultancy
+  link: https://www.digital-democracy.org/
+  categories: trauma, justice, representation, visualization, sovereignty
+
 - name: Data for Black Lives
   short-name: dbl
   type: collective
@@ -34,21 +40,21 @@
 
 - name: Calm Technology
   short-name: calm
-  type: concept
+  type: concept, principles
   link: https://calmtech.com/
   categories: trauma, prevention
 
 - name: Center for Humane Technology
   short-name: humane
-  type: foundation
+  type: foundation, principles
   link: https://humanetech.com/
-  categories: trauma
+  categories: trauma, prevention
 
 - name: Reset.tech
   short-name: reset
   type: foundation
   link: https://www.reset.tech/
-  categories: trauma, funding
+  categories: trauma, funding, ethics
 
 - name: De-escalating Social Media
   short-name: desc
@@ -64,13 +70,13 @@
 
 - name: Data feminism
   short-name: fem
-  type: concept, book
+  type: concept, book, principles
   link: https://data-feminism.mitpress.mit.edu/dash/collection/adaglgld/overview
   categories: trauma, justice
 
 - name: Data Feminism Reading Group
   short-name: femread
-  type: documentation
+  type: documentation, collective
   link: http://datafeminism.io/blog/book/data-feminism-reading-group/
   categories: trauma
 
@@ -82,13 +88,13 @@
 
 - name: First Things First 2014
   short-name: ftf
-  type: manifesto
+  type: manifesto, principles
   link: https://firstthingsfirst2014.net/
   categories: trauma, activism
 
 - name: Ethical visualization
   short-name: eth
-  type: concept
+  type: concept, teaching, principles
   link: https://kathep.github.io/ethics/
   categories: trauma
 
@@ -97,3 +103,15 @@
   type: institute
   link: https://datasociety.net/
   categories: trauma
+
+- name: Carcereal Tech Resistance Network
+  short-name: carcer
+  type: collective
+  link: https://www.carceral.tech/
+  categories: trauma, justice
+
+- name: Design Justice Network
+  short-name: justnet
+  type: collective, principles
+  link: https://designjustice.org/
+  categories: trauma, justice

@@ -27,7 +27,7 @@
 
 - name: Trigger/triggering
   short-name: trigger
-  definition: An interaction or thing that, when experienced, results individual, in a person becoming triggered. Anything can be a trigger. Triggers are different for different people.
+  definition: An interaction or thing that, when experienced, results individual, in a person becoming triggered. Anything can be a trigger, and triggers are different for different people.
   categories: trauma
   related: hate speech, misrepresentation, aggression, violence
   tags: intro
@@ -47,10 +47,10 @@
 
 - name: Trauma effects (individual, in a person)
   short-name: effectind
-  definition: Compromised immune system, exaggerated startle response, feelings of foreshortened future, absence of felt sense of self;.
+  definition: Compromised immune system, exaggerated startle response, feelings of foreshortened future, absence of felt sense of self.
   categories: trauma
   related: adverse childhood experiences score, anxiety, autoimmune diseases, depression, heart disease, post traumatic stress disorder, post traumatic slave syndrome
-  people: Peter Levine, Joy de Gruy, Gabor Mate, Carl Jung, Hans Seyle
+  people: Peter Levine, Joy de Gruy, Gabor Mate, Carl Jung, Hans Seyle, Stephen Porges
   tags: harms
 
 - name: Trauma effects (relational, people relating to one another)
@@ -123,6 +123,6 @@
 - name: Design as a source of healing from trauma
   short-name: sohft
   definition: When an experience of design facilitates healing from trauma for one or more people.
-  related: autonomous design, biofeedback, calm technology, cognitive justice, design activism, design justice, empathic computing, humane technology,  inclusion nudges, decolonizing design, ethical visualization, data feminism, society centered design, harm reducing commmunication, person-first language, plain language
-  people: Arturo Escobar, Katherine Hepworth, Sasha Costanza-Chock, Lauren Klein, Catherine D'Ignazio, Charles Kostelnick, Marion Dork, Christopher Church, If Collective,
+  related: autonomous design, biofeedback, calm technology, cognitive justice, design activism, design justice, empathic computing, humane technology,  inclusion nudges, decolonizing design, ethical visualization, data feminism, society centered design, harm reducing communication, person-first language, plain language
+  people: Arturo Escobar, Katherine Hepworth, Sasha Costanza-Chock, Lauren Klein, Catherine D'Ignazio, Charles Kostelnick, Marion Dork, Christopher Church, If Collective, Digital Democracy
   tags: hrcd
